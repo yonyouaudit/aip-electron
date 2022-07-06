@@ -8,6 +8,11 @@
 - Chromium 100.0.4896.143
 - Electron 18.2.3.
 
+## Dependencies
+
+- https://github.com/electron-react-boilerplate/electron-react-boilerplate
+- https://github.com/electron/electron-quick-start-typescript
+
 **Clone and run for a quick way to see Electron in action.**
 
 This is a [TypeScript](https://www.typescriptlang.org) port of the [AIP Electron repo](https://github.com/yonyouaudit/aip-electron) -- a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start) within the Electron documentation.
