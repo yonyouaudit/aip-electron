@@ -6,7 +6,7 @@
     "lib": ["dom", "es2021"],
     "declaration": true,
     "declarationMap": true,
-    "jsx": "react-jsx",
+    "jsx": "react",
     "strict": true,
     "pretty": true,
     "sourceMap": true,
@@ -22,5 +22,5 @@
     "allowJs": true,
     "outDir": "release/app/dist"
   },
-  "exclude": ["test", "release/build", "release/app/dist", ".erb/dll"]
+  "exclude": ["test", "release/build", "release/app/dist", ".erb/dll_old"]
 }
