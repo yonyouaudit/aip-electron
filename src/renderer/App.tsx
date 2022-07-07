@@ -1,3 +1,4 @@
+/* eslint-disable max-classes-per-file */
 /* eslint-disable no-return-assign */
 /* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable react/self-closing-comp */
@@ -15,6 +16,7 @@
 import * as React from 'react';
 import { ReactBpmnViewer } from 'aip-bpmn';
 import { PureComponent } from 'react';
+import { Route, HashRouter as Router, Switch } from 'react-router-dom';
 import { Button } from 'tinper-bee';
 import Service from './api/service';
 import './App.css';
@@ -113,4 +115,17 @@ class DefaultPage extends PureComponent<any, any> {
   }
 }
 
-export default DefaultPage;
+class App extends PureComponent<any, any> {
+  render() {
+    return (
+      <Router>
+        <Switch>
+          <Route path="/designer" component={DefaultPage} />
+          <Route path="/" component={DefaultPage} />
+        </Switch>
+      </Router>
+    );
+  }
+}
+
+export default App;

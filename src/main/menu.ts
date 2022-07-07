@@ -201,6 +201,9 @@ export default class MenuBuilder {
           {
             label: '&Open',
             accelerator: 'Ctrl+O',
+            click: () => {
+              dialog.showErrorBox('Open', 'Not implemented');
+            },
           },
           {
             label: '&Close',
