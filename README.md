@@ -7,6 +7,8 @@
 - Node.js 16.13.2
 - Chromium 100.0.4896.143
 - Electron 18.2.3.
+- React 16.13.1
+- AIP latest
 
 ## Dependencies
 
@@ -43,6 +45,8 @@ npm start
 ```
 
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+
+<img src="./snapshot.png" alt="snapshot.png"/>
 
 ## Re-compile automatically
 
