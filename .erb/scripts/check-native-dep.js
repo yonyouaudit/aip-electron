@@ -43,7 +43,7 @@ ${chalk.whiteBright.bgGreen.bold(
 )}
  Read more about native dependencies at:
 ${chalk.bold(
-  'https://electron-react-boilerplate.js.org/docs/adding-dependencies/#module-structure'
+  'https://github.com/yonyouaudit/aip-electron/blob/main/README.md'
 )}
  `);
       process.exit(1);
